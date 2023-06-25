@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+}
+#container{
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px black;
+    background: transparent;
+    #Time{
+        font-size: 8vw;
+        color: white;
+        font-weight: bold;
+        
+    }
+    #Date,#Day{
+        font-size: 6vw;
+        color: white;
+    }
+    
+
+}
+#Sec{
+    width: 250px;
+    height: 250px;
+    color: lawngreen;
+}
